@@ -27,8 +27,9 @@ public class ClienteController {
 
     @GetMapping("/cliente")
     public ResponseEntity<ClienteEntity> saveCliente() {
-        ClienteDTO cliente = serviceCliente.saveCliente();
-        return ResponseEntity.ok(cliente).getBody();
+     //   ClienteDTO cliente = serviceCliente.saveCliente();
+       // return ResponseEntity.ok(cliente).getBody();
+        return null;
     }
 
     @GetMapping("/clientes")
